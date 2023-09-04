@@ -1,0 +1,8 @@
+.theme {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    align-self: center;
+}

@@ -1,0 +1,7 @@
+
+@import '../../styles/variables.css';
+
+.card {
+    border: 1px solid var(--first-color);
+    border-radius: 4px;
+}

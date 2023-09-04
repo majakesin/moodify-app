@@ -1,0 +1,11 @@
+
+.wrap {
+    color: var(--fourth-color);
+    display: flex;
+    justify-content: center;
+    margin: 16px 0;
+}
+.welcome {
+    font-size: 46px;
+
+}

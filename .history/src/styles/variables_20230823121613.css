@@ -1,0 +1,27 @@
+
+/*  I'would in this case give more meaningfull names for the variables like button-hover-color, or background.. 
+    This is just because it's test example the numeric names.
+ */
+
+:root,
+:root.blue {
+    --first-color: #3b5998;
+    --second-color:#8b9dc3;
+    --third-color: #dfe3ee;
+    --fourth-color:#f7f7f7;
+    --fifth-color: #ffffff;
+}
+:root.green {
+    --first-color: #004445;
+    --second-color: #2c786c;
+    --third-color: #CEDEBD;
+    --fourth-color: #FAF1E4;
+    --fifth-color: #ffffff;
+}
+:root.pink {
+    --first-color:  #880e4f;
+    --second-color: #d81b60;
+    --third-color: 	#f8bbd0;
+    --fourth-color: #ffc2cd;
+    --fifth-color: #ffffff;
+}

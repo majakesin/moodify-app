@@ -1,0 +1,27 @@
+@import '../src//styles/variables.css';
+
+body {
+  background-color: var(--first-color);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button {
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 22px;;
+  margin: 4px;
+  background-color: var(--second-color);
+  color: var(--fourth-color);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+select {
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin: 8px;
+  background-color: var(--second-color);
+  color: var(--fourth-color);
+}

@@ -1,0 +1,21 @@
+
+@import '../../styles/variables.css';
+
+.card {
+    border: 4px solid var(--fourth-color);
+    border-radius: 4px;
+    margin: 8px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--second-color);
+}
+
+.icon {
+    color: var(--third-color);
+}
+
+.icon svg  {
+    width: 100%;
+    height: auto;
+}

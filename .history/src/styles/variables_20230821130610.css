@@ -1,0 +1,19 @@
+:root,
+:root.pink {
+    --first-color: #45171d;
+    --second-color: #e84a5f;
+    --third-color: #ff847c;
+    --fourth-color: #fecea8;
+}
+    :root.rainbow {
+        --first-color: #cbf078;
+        --second-color: #f8f398;
+        --third-color: #f1b963;
+        --fourth-color: #e46161;
+    }
+    :root.blue {
+        --first-color: #5585b5;
+        --second-color: #53a8b6;
+        --third-color: #79c2d0;
+        --fourth-color: #bbe4e9;
+    }

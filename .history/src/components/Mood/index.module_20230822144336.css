@@ -1,0 +1,41 @@
+
+@import '../../styles/variables.css';
+
+.card {
+    border: 1px solid var(--third-color);
+    background-color: var(--third-color);
+    border-radius: 4px;
+    margin: 8px;
+    padding: 8px;
+    display: flex;
+    min-width: 90vw;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--fourth-color);
+}
+
+.icon {
+    color: var(--third-color);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.desktop {
+    @media only screen and (max-width: 600px) {
+        display: none;
+    }
+}
+
+.file {
+    display: none;
+}
+
+.btn-file {
+    font-size: 16px;
+    height: fit-content;
+}

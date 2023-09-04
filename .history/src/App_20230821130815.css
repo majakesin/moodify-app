@@ -1,0 +1,14 @@
+@import '../src//styles/variables.css';
+
+button {
+  border-radius: 4px;
+  padding: 4px;
+  font-size: 22px;;
+  margin: 4px;
+  background-color: var(--third-color);
+  color: var(--first-color);
+}
+
+button:hover {
+  cursor: pointer;
+}

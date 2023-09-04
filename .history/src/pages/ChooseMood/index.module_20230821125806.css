@@ -1,0 +1,10 @@
+
+.wrap {
+ color: var(--first-color);
+}
+
+.mood-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,8 @@
+@import '../../styles/variables.css';
+
+.form {
+    margin: 8px;
+    color: var(--second-color);
+    display: flex;
+    flex-direction: column;
+}

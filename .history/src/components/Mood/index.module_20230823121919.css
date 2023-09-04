@@ -1,0 +1,61 @@
+
+@import '../../styles/variables.css';
+
+.card {
+    border: 1px solid var(--third-color);
+    background-color: var(--third-color);
+    border-radius: 4px;
+    padding: 8px;
+    margin: 8px;
+    max-width: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--fourth-color);
+}
+
+.icon {
+    align-self: center;
+}
+
+.icon:hover {
+    width: 50%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.desktop {
+    margin: 8px;
+    color: var(--first-color);
+    @media only screen and (max-width: 600px) {
+        display: none;
+    }
+}
+
+.file {
+    display: none;
+}
+
+.file-label {
+    padding: 8px;
+    background-color: var(--second-color);
+    border: 1px solid var(--second-color);
+    border-radius: 4px;
+    height: fit-content;
+    margin: 4px;
+}
+
+.file-label:hover {
+    cursor: pointer;
+    background-color: var(--first-color);
+}
+
+.btn-wrap {
+    display: flex;
+    justify-content: center;
+}
